@@ -1,0 +1,4 @@
+test/downloads/
+.idea/
+__pycache__/
+test/
