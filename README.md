@@ -1,5 +1,5 @@
-# simple-tcp-chat
-It is a simple tcp chat program using python 3 socket.
+# simple-tcp-shareit
+It is a simple file transfer program with tcp protocol using python 3 socket.
 in this program two or multiple clients connect to server and they can chat with each other through one or multiple system in network.
 
 ## manual
@@ -18,13 +18,11 @@ on this program I use socket,threading and json packages if you dont have them y
 **windows**
 ```bash
 pip install socket
-pip install
 ```
 
 **linux**
 ```bash
-pip install socket
-pip install
+pip3 install socket
 ```
 
 ## help
