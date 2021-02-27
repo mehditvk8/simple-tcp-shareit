@@ -1,4 +1,0 @@
-servers:[
-google,
-8.8.8.7
-]
