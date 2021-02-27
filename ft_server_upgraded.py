@@ -89,7 +89,6 @@ class FTServer:
     def __init__(self):
         self.__ip = config.load("ip")
         self.__port = config.load("port")
-        self.__file_name = config.load("filename")
         self.__dl_dir = config.load("dldir")
 
     def run(self):
@@ -111,7 +110,6 @@ class FTServer:
         if filename:
             sent_fsize = file_inf.split("/")[1]
             sent_fhash = file_inf.split("/")[2]
-            config.set_item("filename", filename)
             print("downloading " + filename + " with size " + sent_fsize + " from " + self.address)
             log.print_log("downloading " + filename + "with size " + sent_fsize + " Byte from " + self.address)
             try:
